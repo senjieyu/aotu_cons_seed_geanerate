@@ -1,0 +1,19 @@
+
+>>> [START] Build Base
+[Struct] Base
+  > Desc: Initial Matrix
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04545468]
+------------------------------
+>>> [DONE ] Build Base
+============================================================
+JOB DASHBOARD: FCC Cu
+============================================================
+Output Dir: C:\Users\senji\Desktop\AOTU_cons\aoto_pure_ok\test_twin_modify\outputs\AOTU_run\20251228_211222
+
+>>> [START] Batch Gen
+>>> [DONE ] Batch Gen
+
+>>> [START] Twin Systematic
+>>> [DONE ] Twin Systematic
+Done. Logs: C:\Users\senji\Desktop\AOTU_cons\aoto_pure_ok\test_twin_modify\outputs\AOTU_run\20251228_211222\run.log

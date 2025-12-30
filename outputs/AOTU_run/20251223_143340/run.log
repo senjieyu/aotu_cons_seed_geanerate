@@ -1,0 +1,1617 @@
+
+>>> [START] Build Base
+[Struct] Base
+  > Desc: Initial Matrix
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+------------------------------
+>>> [DONE ] Build Base
+============================================================
+JOB DASHBOARD: FCC Cu
+============================================================
+Output Dir: C:\Users\senji\Desktop\AOTU_cons\aoto_pure_ok\test_twin_modify\outputs\AOTU_run\20251223_143340
+Strain Range: -30.0% to 30.0%
+Total Strain Points: 34
+
+>>> [START] Batch Gen
+[Struct] 1D_main_000_frac0.0000
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.0000'}
+------------------------------
+[Struct] 1D_main_001_frac0.0500
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.0500'}
+------------------------------
+[Struct] 1D_main_002_frac0.1000
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.1000'}
+------------------------------
+[Struct] 1D_main_003_frac0.1500
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.1500'}
+------------------------------
+[Struct] 1D_main_004_frac0.2000
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.2000'}
+------------------------------
+[Struct] 1D_main_005_frac0.2500
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.2500'}
+------------------------------
+[Struct] 1D_main_006_frac0.3000
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.3000'}
+------------------------------
+[Struct] 1D_main_007_frac0.3500
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.3500'}
+------------------------------
+[Struct] 1D_main_008_frac0.4000
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.4000'}
+------------------------------
+[Struct] 1D_main_009_frac0.4500
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.4500'}
+------------------------------
+[Struct] 1D_main_010_frac0.5000
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.5000'}
+------------------------------
+[Struct] 1D_main_011_frac0.5500
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.5500'}
+------------------------------
+[Struct] 1D_main_012_frac0.6000
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.6000'}
+------------------------------
+[Struct] 1D_main_013_frac0.6500
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.6500'}
+------------------------------
+[Struct] 1D_main_014_frac0.7000
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.7000'}
+------------------------------
+[Struct] 1D_main_015_frac0.7500
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.7500'}
+------------------------------
+[Struct] 1D_main_016_frac0.8000
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.8000'}
+------------------------------
+[Struct] 1D_main_017_frac0.8500
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.8500'}
+------------------------------
+[Struct] 1D_main_018_frac0.9000
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.9000'}
+------------------------------
+[Struct] 1D_main_019_frac0.9500
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.9500'}
+------------------------------
+[Struct] 1D_main_020_frac1.0000
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '1.0000'}
+------------------------------
+>>> [DONE ] Batch Gen
+
+>>> [START] Twin Gen
+[Struct] Twin_Micro_1L
+  > Desc: Micro Twin
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 43.82954569]
+------------------------------
+[Struct] Twin_Micro_2L
+  > Desc: Micro Twin
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 45.91666691]
+------------------------------
+[Struct] Twin_Micro_3L
+  > Desc: Micro Twin
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 48.00378813]
+------------------------------
+[Struct] Twin_Space_1.0nm
+  > Desc: Periodic Twin 1.0nm
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 41.74242446]
+------------------------------
+[Struct] Twin_Space_5.0nm
+  > Desc: Periodic Twin 5.0nm
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 200.36363742]
+------------------------------
+[Struct] Twin_Space_10.0nm
+  > Desc: Periodic Twin 10.0nm
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 400.72727484]
+------------------------------
+>>> [DONE ] Twin Gen
+
+>>> [START] Apply Strain to ALL
+Structures to strain: 7
+  - Base_FCC
+  - Twin_Micro_1L
+  - Twin_Micro_2L
+  - Twin_Micro_3L
+  - Twin_Space_1.0nm
+  - Twin_Space_5.0nm
+  - Twin_Space_10.0nm
+[Struct] Base_FCC_Epsm0p3000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 17.53156364]
+  > Params: {'eps': '-0.3000', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p2800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 18.03246545]
+  > Params: {'eps': '-0.2800', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p2600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 18.53336727]
+  > Params: {'eps': '-0.2600', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p2400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 19.03426909]
+  > Params: {'eps': '-0.2400', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p2200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 19.53517091]
+  > Params: {'eps': '-0.2200', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p2000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 20.03607273]
+  > Params: {'eps': '-0.2000', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p1800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 20.53697455]
+  > Params: {'eps': '-0.1800', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p1600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 21.03787636]
+  > Params: {'eps': '-0.1600', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p1400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 21.53877818]
+  > Params: {'eps': '-0.1400', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p1200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 22.03968   ]
+  > Params: {'eps': '-0.1200', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p1000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 22.54058182]
+  > Params: {'eps': '-0.1000', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p0800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 23.04148364]
+  > Params: {'eps': '-0.0800', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p0600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 23.54238545]
+  > Params: {'eps': '-0.0600', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p0400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 24.04328727]
+  > Params: {'eps': '-0.0400', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Epsm0p0200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 24.54418909]
+  > Params: {'eps': '-0.0200', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p0000
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'eps': '0.0000', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p0050
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.17031636]
+  > Params: {'eps': '0.0050', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p0100
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.29554182]
+  > Params: {'eps': '0.0100', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p0150
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.42076727]
+  > Params: {'eps': '0.0150', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p0200
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.54599273]
+  > Params: {'eps': '0.0200', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p0400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 26.04689455]
+  > Params: {'eps': '0.0400', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p0600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 26.54779636]
+  > Params: {'eps': '0.0600', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p0800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 27.04869818]
+  > Params: {'eps': '0.0800', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p1000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 27.5496    ]
+  > Params: {'eps': '0.1000', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p1200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 28.05050182]
+  > Params: {'eps': '0.1200', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p1400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 28.55140364]
+  > Params: {'eps': '0.1400', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p1600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 29.05230545]
+  > Params: {'eps': '0.1600', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p1800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 29.55320727]
+  > Params: {'eps': '0.1800', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p2000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 30.05410909]
+  > Params: {'eps': '0.2000', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p2200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 30.55501091]
+  > Params: {'eps': '0.2200', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p2400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 31.05591273]
+  > Params: {'eps': '0.2400', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p2600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 31.55681455]
+  > Params: {'eps': '0.2600', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p2800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 32.05771636]
+  > Params: {'eps': '0.2800', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Base_FCC_Eps0p3000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 32.55861818]
+  > Params: {'eps': '0.3000', 'origin': 'Base_FCC'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p3000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 30.68068198]
+  > Params: {'eps': '-0.3000', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p2800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 31.55727289]
+  > Params: {'eps': '-0.2800', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p2600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 32.43386381]
+  > Params: {'eps': '-0.2600', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p2400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 33.31045472]
+  > Params: {'eps': '-0.2400', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p2200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 34.18704563]
+  > Params: {'eps': '-0.2200', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p2000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 35.06363655]
+  > Params: {'eps': '-0.2000', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p1800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 35.94022746]
+  > Params: {'eps': '-0.1800', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p1600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 36.81681838]
+  > Params: {'eps': '-0.1600', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p1400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 37.69340929]
+  > Params: {'eps': '-0.1400', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p1200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 38.5700002 ]
+  > Params: {'eps': '-0.1200', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p1000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 39.44659112]
+  > Params: {'eps': '-0.1000', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p0800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 40.32318203]
+  > Params: {'eps': '-0.0800', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p0600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 41.19977294]
+  > Params: {'eps': '-0.0600', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p0400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 42.07636386]
+  > Params: {'eps': '-0.0400', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Epsm0p0200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 42.95295477]
+  > Params: {'eps': '-0.0200', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p0000
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 43.82954569]
+  > Params: {'eps': '0.0000', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p0050
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 44.04869341]
+  > Params: {'eps': '0.0050', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p0100
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 44.26784114]
+  > Params: {'eps': '0.0100', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p0150
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 44.48698887]
+  > Params: {'eps': '0.0150', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p0200
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 44.7061366 ]
+  > Params: {'eps': '0.0200', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p0400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 45.58272751]
+  > Params: {'eps': '0.0400', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p0600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 46.45931843]
+  > Params: {'eps': '0.0600', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p0800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 47.33590934]
+  > Params: {'eps': '0.0800', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p1000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 48.21250025]
+  > Params: {'eps': '0.1000', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p1200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 49.08909117]
+  > Params: {'eps': '0.1200', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p1400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 49.96568208]
+  > Params: {'eps': '0.1400', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p1600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 50.842273  ]
+  > Params: {'eps': '0.1600', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p1800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 51.71886391]
+  > Params: {'eps': '0.1800', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p2000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 52.59545482]
+  > Params: {'eps': '0.2000', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p2200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 53.47204574]
+  > Params: {'eps': '0.2200', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p2400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 54.34863665]
+  > Params: {'eps': '0.2400', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p2600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 55.22522756]
+  > Params: {'eps': '0.2600', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p2800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 56.10181848]
+  > Params: {'eps': '0.2800', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_1L_Eps0p3000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 56.97840939]
+  > Params: {'eps': '0.3000', 'origin': 'Twin_Micro_1L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p3000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 32.14166684]
+  > Params: {'eps': '-0.3000', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p2800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 33.06000017]
+  > Params: {'eps': '-0.2800', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p2600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 33.97833351]
+  > Params: {'eps': '-0.2600', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p2400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 34.89666685]
+  > Params: {'eps': '-0.2400', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p2200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 35.81500019]
+  > Params: {'eps': '-0.2200', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p2000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 36.73333353]
+  > Params: {'eps': '-0.2000', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p1800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 37.65166687]
+  > Params: {'eps': '-0.1800', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p1600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 38.5700002 ]
+  > Params: {'eps': '-0.1600', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p1400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 39.48833354]
+  > Params: {'eps': '-0.1400', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p1200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 40.40666688]
+  > Params: {'eps': '-0.1200', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p1000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 41.32500022]
+  > Params: {'eps': '-0.1000', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p0800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 42.24333356]
+  > Params: {'eps': '-0.0800', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p0600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 43.16166689]
+  > Params: {'eps': '-0.0600', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p0400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 44.08000023]
+  > Params: {'eps': '-0.0400', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Epsm0p0200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 44.99833357]
+  > Params: {'eps': '-0.0200', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p0000
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 45.91666691]
+  > Params: {'eps': '0.0000', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p0050
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 46.14625024]
+  > Params: {'eps': '0.0050', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p0100
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 46.37583358]
+  > Params: {'eps': '0.0100', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p0150
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 46.60541691]
+  > Params: {'eps': '0.0150', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p0200
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 46.83500025]
+  > Params: {'eps': '0.0200', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p0400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 47.75333358]
+  > Params: {'eps': '0.0400', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p0600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 48.67166692]
+  > Params: {'eps': '0.0600', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p0800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 49.59000026]
+  > Params: {'eps': '0.0800', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p1000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 50.5083336 ]
+  > Params: {'eps': '0.1000', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p1200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 51.42666694]
+  > Params: {'eps': '0.1200', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p1400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 52.34500028]
+  > Params: {'eps': '0.1400', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p1600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 53.26333361]
+  > Params: {'eps': '0.1600', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p1800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 54.18166695]
+  > Params: {'eps': '0.1800', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p2000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 55.10000029]
+  > Params: {'eps': '0.2000', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p2200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 56.01833363]
+  > Params: {'eps': '0.2200', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p2400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 56.93666697]
+  > Params: {'eps': '0.2400', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p2600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 57.8550003 ]
+  > Params: {'eps': '0.2600', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p2800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 58.77333364]
+  > Params: {'eps': '0.2800', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_2L_Eps0p3000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 59.69166698]
+  > Params: {'eps': '0.3000', 'origin': 'Twin_Micro_2L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p3000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 33.60265169]
+  > Params: {'eps': '-0.3000', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p2800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 34.56272745]
+  > Params: {'eps': '-0.2800', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p2600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 35.52280322]
+  > Params: {'eps': '-0.2600', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p2400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 36.48287898]
+  > Params: {'eps': '-0.2400', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p2200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 37.44295474]
+  > Params: {'eps': '-0.2200', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p2000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 38.40303051]
+  > Params: {'eps': '-0.2000', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p1800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 39.36310627]
+  > Params: {'eps': '-0.1800', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p1600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 40.32318203]
+  > Params: {'eps': '-0.1600', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p1400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 41.28325779]
+  > Params: {'eps': '-0.1400', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p1200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 42.24333356]
+  > Params: {'eps': '-0.1200', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p1000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 43.20340932]
+  > Params: {'eps': '-0.1000', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p0800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 44.16348508]
+  > Params: {'eps': '-0.0800', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p0600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 45.12356084]
+  > Params: {'eps': '-0.0600', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p0400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 46.08363661]
+  > Params: {'eps': '-0.0400', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Epsm0p0200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 47.04371237]
+  > Params: {'eps': '-0.0200', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p0000
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 48.00378813]
+  > Params: {'eps': '0.0000', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p0050
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 48.24380707]
+  > Params: {'eps': '0.0050', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p0100
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 48.48382601]
+  > Params: {'eps': '0.0100', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p0150
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 48.72384495]
+  > Params: {'eps': '0.0150', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p0200
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 48.96386389]
+  > Params: {'eps': '0.0200', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p0400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 49.92393966]
+  > Params: {'eps': '0.0400', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p0600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 50.88401542]
+  > Params: {'eps': '0.0600', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p0800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 51.84409118]
+  > Params: {'eps': '0.0800', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p1000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 52.80416694]
+  > Params: {'eps': '0.1000', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p1200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 53.76424271]
+  > Params: {'eps': '0.1200', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p1400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 54.72431847]
+  > Params: {'eps': '0.1400', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p1600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 55.68439423]
+  > Params: {'eps': '0.1600', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p1800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 56.64447   ]
+  > Params: {'eps': '0.1800', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p2000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 57.60454576]
+  > Params: {'eps': '0.2000', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p2200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 58.56462152]
+  > Params: {'eps': '0.2200', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p2400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 59.52469728]
+  > Params: {'eps': '0.2400', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p2600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 60.48477305]
+  > Params: {'eps': '0.2600', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p2800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 61.44484881]
+  > Params: {'eps': '0.2800', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Micro_3L_Eps0p3000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 62.40492457]
+  > Params: {'eps': '0.3000', 'origin': 'Twin_Micro_3L'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p3000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 29.21969712]
+  > Params: {'eps': '-0.3000', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p2800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 30.05454561]
+  > Params: {'eps': '-0.2800', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p2600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 30.8893941 ]
+  > Params: {'eps': '-0.2600', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p2400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 31.72424259]
+  > Params: {'eps': '-0.2400', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p2200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 32.55909108]
+  > Params: {'eps': '-0.2200', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p2000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 33.39393957]
+  > Params: {'eps': '-0.2000', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p1800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 34.22878806]
+  > Params: {'eps': '-0.1800', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p1600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 35.06363655]
+  > Params: {'eps': '-0.1600', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p1400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 35.89848504]
+  > Params: {'eps': '-0.1400', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p1200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 36.73333353]
+  > Params: {'eps': '-0.1200', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p1000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 37.56818202]
+  > Params: {'eps': '-0.1000', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p0800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 38.40303051]
+  > Params: {'eps': '-0.0800', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p0600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 39.23787899]
+  > Params: {'eps': '-0.0600', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p0400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 40.07272748]
+  > Params: {'eps': '-0.0400', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Epsm0p0200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 40.90757597]
+  > Params: {'eps': '-0.0200', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p0000
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 41.74242446]
+  > Params: {'eps': '0.0000', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p0050
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 41.95113658]
+  > Params: {'eps': '0.0050', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p0100
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 42.15984871]
+  > Params: {'eps': '0.0100', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p0150
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 42.36856083]
+  > Params: {'eps': '0.0150', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p0200
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 42.57727295]
+  > Params: {'eps': '0.0200', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p0400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 43.41212144]
+  > Params: {'eps': '0.0400', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p0600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 44.24696993]
+  > Params: {'eps': '0.0600', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p0800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 45.08181842]
+  > Params: {'eps': '0.0800', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p1000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 45.91666691]
+  > Params: {'eps': '0.1000', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p1200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 46.7515154 ]
+  > Params: {'eps': '0.1200', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p1400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 47.58636389]
+  > Params: {'eps': '0.1400', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p1600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 48.42121238]
+  > Params: {'eps': '0.1600', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p1800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 49.25606087]
+  > Params: {'eps': '0.1800', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p2000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 50.09090935]
+  > Params: {'eps': '0.2000', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p2200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 50.92575784]
+  > Params: {'eps': '0.2200', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p2400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 51.76060633]
+  > Params: {'eps': '0.2400', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p2600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 52.59545482]
+  > Params: {'eps': '0.2600', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p2800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 53.43030331]
+  > Params: {'eps': '0.2800', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_1.0nm_Eps0p3000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 54.2651518 ]
+  > Params: {'eps': '0.3000', 'origin': 'Twin_Space_1.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p3000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 140.25454619]
+  > Params: {'eps': '-0.3000', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p2800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 144.26181894]
+  > Params: {'eps': '-0.2800', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p2600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 148.26909169]
+  > Params: {'eps': '-0.2600', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p2400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 152.27636444]
+  > Params: {'eps': '-0.2400', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p2200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 156.28363719]
+  > Params: {'eps': '-0.2200', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p2000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 160.29090994]
+  > Params: {'eps': '-0.2000', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p1800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 164.29818268]
+  > Params: {'eps': '-0.1800', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p1600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 168.30545543]
+  > Params: {'eps': '-0.1600', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p1400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 172.31272818]
+  > Params: {'eps': '-0.1400', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p1200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 176.32000093]
+  > Params: {'eps': '-0.1200', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p1000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 180.32727368]
+  > Params: {'eps': '-0.1000', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p0800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 184.33454643]
+  > Params: {'eps': '-0.0800', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p0600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 188.34181917]
+  > Params: {'eps': '-0.0600', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p0400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 192.34909192]
+  > Params: {'eps': '-0.0400', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Epsm0p0200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 196.35636467]
+  > Params: {'eps': '-0.0200', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p0000
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 200.36363742]
+  > Params: {'eps': '0.0000', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p0050
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 201.36545561]
+  > Params: {'eps': '0.0050', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p0100
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 202.36727379]
+  > Params: {'eps': '0.0100', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p0150
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 203.36909198]
+  > Params: {'eps': '0.0150', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p0200
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 204.37091017]
+  > Params: {'eps': '0.0200', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p0400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 208.37818292]
+  > Params: {'eps': '0.0400', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p0600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 212.38545566]
+  > Params: {'eps': '0.0600', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p0800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 216.39272841]
+  > Params: {'eps': '0.0800', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p1000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 220.40000116]
+  > Params: {'eps': '0.1000', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p1200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 224.40727391]
+  > Params: {'eps': '0.1200', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p1400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 228.41454666]
+  > Params: {'eps': '0.1400', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p1600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 232.42181941]
+  > Params: {'eps': '0.1600', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p1800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 236.42909216]
+  > Params: {'eps': '0.1800', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p2000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 240.4363649 ]
+  > Params: {'eps': '0.2000', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p2200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 244.44363765]
+  > Params: {'eps': '0.2200', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p2400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 248.4509104 ]
+  > Params: {'eps': '0.2400', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p2600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 252.45818315]
+  > Params: {'eps': '0.2600', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p2800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 256.4654559 ]
+  > Params: {'eps': '0.2800', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_5.0nm_Eps0p3000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 864
+  > Cell: [  7.66857304   6.64117907 260.47272865]
+  > Params: {'eps': '0.3000', 'origin': 'Twin_Space_5.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p3000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 280.50909239]
+  > Params: {'eps': '-0.3000', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p2800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 288.52363788]
+  > Params: {'eps': '-0.2800', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p2600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 296.53818338]
+  > Params: {'eps': '-0.2600', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p2400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 304.55272888]
+  > Params: {'eps': '-0.2400', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p2200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 312.56727437]
+  > Params: {'eps': '-0.2200', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p2000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 320.58181987]
+  > Params: {'eps': '-0.2000', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p1800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 328.59636537]
+  > Params: {'eps': '-0.1800', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p1600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 336.61091086]
+  > Params: {'eps': '-0.1600', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p1400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 344.62545636]
+  > Params: {'eps': '-0.1400', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p1200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 352.64000186]
+  > Params: {'eps': '-0.1200', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p1000
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 360.65454736]
+  > Params: {'eps': '-0.1000', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p0800
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 368.66909285]
+  > Params: {'eps': '-0.0800', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p0600
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 376.68363835]
+  > Params: {'eps': '-0.0600', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p0400
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 384.69818385]
+  > Params: {'eps': '-0.0400', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Epsm0p0200
+  > Desc: Strain [uniaxial_z] (Compress)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 392.71272934]
+  > Params: {'eps': '-0.0200', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p0000
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 400.72727484]
+  > Params: {'eps': '0.0000', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p0050
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 402.73091121]
+  > Params: {'eps': '0.0050', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p0100
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 404.73454759]
+  > Params: {'eps': '0.0100', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p0150
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 406.73818396]
+  > Params: {'eps': '0.0150', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p0200
+  > Desc: Strain [uniaxial_z] (Elastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 408.74182034]
+  > Params: {'eps': '0.0200', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p0400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 416.75636583]
+  > Params: {'eps': '0.0400', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p0600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 424.77091133]
+  > Params: {'eps': '0.0600', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p0800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 432.78545683]
+  > Params: {'eps': '0.0800', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p1000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 440.80000232]
+  > Params: {'eps': '0.1000', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p1200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 448.81454782]
+  > Params: {'eps': '0.1200', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p1400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 456.82909332]
+  > Params: {'eps': '0.1400', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p1600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 464.84363881]
+  > Params: {'eps': '0.1600', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p1800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 472.85818431]
+  > Params: {'eps': '0.1800', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p2000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 480.87272981]
+  > Params: {'eps': '0.2000', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p2200
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 488.8872753 ]
+  > Params: {'eps': '0.2200', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p2400
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 496.9018208 ]
+  > Params: {'eps': '0.2400', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p2600
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 504.9163663 ]
+  > Params: {'eps': '0.2600', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p2800
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 512.93091179]
+  > Params: {'eps': '0.2800', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+[Struct] Twin_Space_10.0nm_Eps0p3000
+  > Desc: Strain [uniaxial_z] (Plastic)
+  > Atoms: 1728
+  > Cell: [  7.66857304   6.64117907 520.94545729]
+  > Params: {'eps': '0.3000', 'origin': 'Twin_Space_10.0nm'}
+------------------------------
+Total strain files generated: 238
+>>> [DONE ] Apply Strain to ALL
+Done. Logs: C:\Users\senji\Desktop\AOTU_cons\aoto_pure_ok\test_twin_modify\outputs\AOTU_run\20251223_143340\run.log

@@ -1,0 +1,198 @@
+
+>>> [START] Build Base
+[Struct] Base
+  > Desc: Initial Matrix
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+------------------------------
+>>> [DONE ] Build Base
+============================================================
+JOB DASHBOARD: FCC Cu
+============================================================
+Output Dir: C:\Users\senji\Desktop\AOTU_cons\aoto_pure_ok\test_twin_modify\outputs\AOTU_run\20251225_205449
+
+>>> [START] Batch Gen
+>>> [DONE ] Batch Gen
+
+>>> [START] Twin Systematic
+[Struct] Twin_Single_TB
+  > Desc: Single Twin Boundary
+  > Atoms: 180
+  > Cell: [ 7.66857304  6.64117907 41.74242446]
+------------------------------
+[Struct] Twin_Double_Sym_Sp0.21nm_1L
+  > Desc: Double Twin Symmetric
+  > Atoms: 27
+  > Cell: [7.66857304 6.64117907 6.26136367]
+  > Params: {'spacing': '0.21nm', 'layers': 1}
+------------------------------
+[Struct] Twin_Double_Sym_Sp0.42nm_2L
+  > Desc: Double Twin Symmetric
+  > Atoms: 54
+  > Cell: [ 7.66857304  6.64117907 12.52272734]
+  > Params: {'spacing': '0.42nm', 'layers': 2}
+------------------------------
+[Struct] Twin_Double_Sym_Sp0.63nm_3L
+  > Desc: Double Twin Symmetric
+  > Atoms: 81
+  > Cell: [ 7.66857304  6.64117907 18.78409101]
+  > Params: {'spacing': '0.63nm', 'layers': 3}
+------------------------------
+[Struct] Twin_Double_Sym_Sp0.83nm_4L
+  > Desc: Double Twin Symmetric
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04545468]
+  > Params: {'spacing': '0.83nm', 'layers': 4}
+------------------------------
+[Struct] Twin_Double_Sym_Sp1.04nm_5L
+  > Desc: Double Twin Symmetric
+  > Atoms: 135
+  > Cell: [ 7.66857304  6.64117907 31.30681835]
+  > Params: {'spacing': '1.04nm', 'layers': 5}
+------------------------------
+[Struct] Twin_Double_Sym_Sp1.25nm_6L
+  > Desc: Double Twin Symmetric
+  > Atoms: 162
+  > Cell: [ 7.66857304  6.64117907 37.56818202]
+  > Params: {'spacing': '1.25nm', 'layers': 6}
+------------------------------
+[Struct] Twin_Double_Sym_Sp1.46nm_7L
+  > Desc: Double Twin Symmetric
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 43.82954569]
+  > Params: {'spacing': '1.46nm', 'layers': 7}
+------------------------------
+[Struct] Twin_Double_Sym_Sp1.67nm_8L
+  > Desc: Double Twin Symmetric
+  > Atoms: 216
+  > Cell: [ 7.66857304  6.64117907 50.09090935]
+  > Params: {'spacing': '1.67nm', 'layers': 8}
+------------------------------
+[Struct] Twin_Double_Sym_Sp1.88nm_9L
+  > Desc: Double Twin Symmetric
+  > Atoms: 243
+  > Cell: [ 7.66857304  6.64117907 56.35227302]
+  > Params: {'spacing': '1.88nm', 'layers': 9}
+------------------------------
+[Struct] Twin_Double_Sym_Sp2.09nm_10L
+  > Desc: Double Twin Symmetric
+  > Atoms: 270
+  > Cell: [ 7.66857304  6.64117907 62.61363669]
+  > Params: {'spacing': '2.09nm', 'layers': 10}
+------------------------------
+[Struct] Twin_Double_Sym_Sp2.30nm_11L
+  > Desc: Double Twin Symmetric
+  > Atoms: 297
+  > Cell: [ 7.66857304  6.64117907 68.87500036]
+  > Params: {'spacing': '2.30nm', 'layers': 11}
+------------------------------
+[Struct] Twin_Double_Sym_Sp2.50nm_12L
+  > Desc: Double Twin Symmetric
+  > Atoms: 324
+  > Cell: [ 7.66857304  6.64117907 75.13636403]
+  > Params: {'spacing': '2.50nm', 'layers': 12}
+------------------------------
+[Struct] Twin_Double_Sym_Sp2.71nm_13L
+  > Desc: Double Twin Symmetric
+  > Atoms: 351
+  > Cell: [ 7.66857304  6.64117907 81.3977277 ]
+  > Params: {'spacing': '2.71nm', 'layers': 13}
+------------------------------
+[Struct] Twin_Double_Sym_Sp2.92nm_14L
+  > Desc: Double Twin Symmetric
+  > Atoms: 378
+  > Cell: [ 7.66857304  6.64117907 87.65909137]
+  > Params: {'spacing': '2.92nm', 'layers': 14}
+------------------------------
+[Struct] Twin_Double_Sym_Sp3.13nm_15L
+  > Desc: Double Twin Symmetric
+  > Atoms: 405
+  > Cell: [ 7.66857304  6.64117907 93.92045504]
+  > Params: {'spacing': '3.13nm', 'layers': 15}
+------------------------------
+[Struct] Twin_Double_Asym_Inner0.21nm_Outer2.09nm_1L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 43.82954569]
+  > Params: {'inner': '0.21nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner0.42nm_Outer2.09nm_2L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 198
+  > Cell: [ 7.66857304  6.64117907 45.91666691]
+  > Params: {'inner': '0.42nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner0.63nm_Outer2.09nm_3L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 207
+  > Cell: [ 7.66857304  6.64117907 48.00378813]
+  > Params: {'inner': '0.63nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner0.83nm_Outer2.09nm_4L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 216
+  > Cell: [ 7.66857304  6.64117907 50.09090935]
+  > Params: {'inner': '0.83nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner1.04nm_Outer2.09nm_5L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 225
+  > Cell: [ 7.66857304  6.64117907 52.17803058]
+  > Params: {'inner': '1.04nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner1.25nm_Outer2.09nm_6L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 234
+  > Cell: [ 7.66857304  6.64117907 54.2651518 ]
+  > Params: {'inner': '1.25nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner1.46nm_Outer2.09nm_7L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 243
+  > Cell: [ 7.66857304  6.64117907 56.35227302]
+  > Params: {'inner': '1.46nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner1.67nm_Outer2.09nm_8L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 252
+  > Cell: [ 7.66857304  6.64117907 58.43939425]
+  > Params: {'inner': '1.67nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner1.88nm_Outer2.09nm_9L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 261
+  > Cell: [ 7.66857304  6.64117907 60.52651547]
+  > Params: {'inner': '1.88nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner2.30nm_Outer2.09nm_11L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 279
+  > Cell: [ 7.66857304  6.64117907 64.70075792]
+  > Params: {'inner': '2.30nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner2.50nm_Outer2.09nm_12L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 288
+  > Cell: [ 7.66857304  6.64117907 66.78787914]
+  > Params: {'inner': '2.50nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner2.71nm_Outer2.09nm_13L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 297
+  > Cell: [ 7.66857304  6.64117907 68.87500036]
+  > Params: {'inner': '2.71nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner2.92nm_Outer2.09nm_14L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 306
+  > Cell: [ 7.66857304  6.64117907 70.96212159]
+  > Params: {'inner': '2.92nm', 'outer': '2.09nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner3.13nm_Outer2.09nm_15L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 315
+  > Cell: [ 7.66857304  6.64117907 73.04924281]
+  > Params: {'inner': '3.13nm', 'outer': '2.09nm'}
+------------------------------
+>>> [DONE ] Twin Systematic
+Done. Logs: C:\Users\senji\Desktop\AOTU_cons\aoto_pure_ok\test_twin_modify\outputs\AOTU_run\20251225_205449\run.log

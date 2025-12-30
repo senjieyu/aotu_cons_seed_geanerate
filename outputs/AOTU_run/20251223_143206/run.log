@@ -1,0 +1,23 @@
+
+>>> [START] Build Base
+[Struct] Base
+  > Desc: Initial Matrix
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+------------------------------
+>>> [DONE ] Build Base
+============================================================
+JOB DASHBOARD: FCC Cu
+============================================================
+Output Dir: C:\Users\senji\Desktop\AOTU_cons\aoto_pure_ok\test_twin_modify\outputs\AOTU_run\20251223_143206
+Strain Range: 0.0% to 30.0%
+Total Strain Points: 19
+
+>>> [START] Batch Gen
+[Struct] 1D_main_000_frac0.0000
+  > Desc: 1D Main Slip
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04509091]
+  > Params: {'frac': '0.0000'}
+------------------------------
+>>> [DONE ] Batch Gen
