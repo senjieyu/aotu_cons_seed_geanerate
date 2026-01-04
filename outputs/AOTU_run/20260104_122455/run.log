@@ -1,0 +1,114 @@
+
+>>> [START] Build Base
+[Struct] Base
+  > Desc: Initial Matrix
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04545468]
+------------------------------
+>>> [DONE ] Build Base
+============================================================
+JOB DASHBOARD: FCC Cu
+============================================================
+Output Dir: C:\Users\senji\Desktop\AOTU_cons\aoto_pure_ok\test_twin_modify\outputs\AOTU_run\20260104_122455
+
+>>> [START] Batch Gen
+>>> [DONE ] Batch Gen
+
+>>> [START] Twin Systematic
+[Struct] Twin_Single_TB
+  > Desc: Single Twin Boundary
+  > Atoms: 171
+  > Cell: [ 7.66857304  6.64117907 39.65530324]
+------------------------------
+[Struct] Twin_Double_Sym_Sp0.21nm_1L
+  > Desc: Double Twin Symmetric
+  > Atoms: 27
+  > Cell: [7.66857304 6.64117907 6.26136367]
+  > Params: {'spacing': '0.21nm', 'layers': 1}
+------------------------------
+[Struct] Twin_Double_Sym_Sp0.42nm_2L
+  > Desc: Double Twin Symmetric
+  > Atoms: 54
+  > Cell: [ 7.66857304  6.64117907 12.52272734]
+  > Params: {'spacing': '0.42nm', 'layers': 2}
+------------------------------
+[Struct] Twin_Double_Sym_Sp0.63nm_3L
+  > Desc: Double Twin Symmetric
+  > Atoms: 81
+  > Cell: [ 7.66857304  6.64117907 18.78409101]
+  > Params: {'spacing': '0.63nm', 'layers': 3}
+------------------------------
+[Struct] Twin_Double_Sym_Sp0.83nm_4L
+  > Desc: Double Twin Symmetric
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04545468]
+  > Params: {'spacing': '0.83nm', 'layers': 4}
+------------------------------
+[Struct] Twin_Double_Sym_Sp1.04nm_5L
+  > Desc: Double Twin Symmetric
+  > Atoms: 135
+  > Cell: [ 7.66857304  6.64117907 31.30681835]
+  > Params: {'spacing': '1.04nm', 'layers': 5}
+------------------------------
+[Struct] Twin_Double_Sym_Sp1.25nm_6L
+  > Desc: Double Twin Symmetric
+  > Atoms: 162
+  > Cell: [ 7.66857304  6.64117907 37.56818202]
+  > Params: {'spacing': '1.25nm', 'layers': 6}
+------------------------------
+[Struct] Twin_Double_Sym_Sp1.46nm_7L
+  > Desc: Double Twin Symmetric
+  > Atoms: 189
+  > Cell: [ 7.66857304  6.64117907 43.82954569]
+  > Params: {'spacing': '1.46nm', 'layers': 7}
+------------------------------
+[Struct] Twin_Double_Sym_Sp1.67nm_8L
+  > Desc: Double Twin Symmetric
+  > Atoms: 216
+  > Cell: [ 7.66857304  6.64117907 50.09090935]
+  > Params: {'spacing': '1.67nm', 'layers': 8}
+------------------------------
+[Struct] Twin_Double_Asym_Inner0.21nm_Outer0.63nm_1L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 54
+  > Cell: [ 7.66857304  6.64117907 12.52272734]
+  > Params: {'inner': '0.21nm', 'outer': '0.63nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner0.42nm_Outer0.63nm_2L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 63
+  > Cell: [ 7.66857304  6.64117907 14.60984856]
+  > Params: {'inner': '0.42nm', 'outer': '0.63nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner0.83nm_Outer0.63nm_4L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 81
+  > Cell: [ 7.66857304  6.64117907 18.78409101]
+  > Params: {'inner': '0.83nm', 'outer': '0.63nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner1.04nm_Outer0.63nm_5L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 90
+  > Cell: [ 7.66857304  6.64117907 20.87121223]
+  > Params: {'inner': '1.04nm', 'outer': '0.63nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner1.25nm_Outer0.63nm_6L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04545468]
+  > Params: {'inner': '1.25nm', 'outer': '0.63nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner1.46nm_Outer0.63nm_7L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 108
+  > Cell: [ 7.66857304  6.64117907 25.04545468]
+  > Params: {'inner': '1.46nm', 'outer': '0.63nm'}
+------------------------------
+[Struct] Twin_Double_Asym_Inner1.67nm_Outer0.63nm_8L
+  > Desc: Double Twin Asymmetric
+  > Atoms: 117
+  > Cell: [ 7.66857304  6.64117907 27.1325759 ]
+  > Params: {'inner': '1.67nm', 'outer': '0.63nm'}
+------------------------------
+>>> [DONE ] Twin Systematic
+Done. Logs: C:\Users\senji\Desktop\AOTU_cons\aoto_pure_ok\test_twin_modify\outputs\AOTU_run\20260104_122455\run.log

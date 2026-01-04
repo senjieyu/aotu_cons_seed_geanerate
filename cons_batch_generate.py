@@ -14,7 +14,7 @@ def get_d111(a):
     """根据晶格常数计算 FCC(111) 面间距"""
     return a / np.sqrt(3)
 
-def fix_pbc_vertical_layers(atoms, d_111):
+def fix_pbc_vertical_layers(atoms, d_111, check_fcc_3_layers=True):
     """
     【核心修复】强制修正 Z 轴周期性，防止边界重叠。
     """
@@ -38,8 +38,8 @@ def fix_pbc_vertical_layers(atoms, d_111):
         pos[layer_indices, 2] = i * d_111
     atoms.set_positions(pos)
     
-    # 4. 自动修剪
-    if n_layers % 3 != 0:
+    # 4. 自动修剪 (可选)
+    if check_fcc_3_layers and n_layers % 3 != 0:
         print(f"  [Auto-Fix] Layer count {n_layers} not divisible by 3. Trimming top layer...")
         del atoms[indices[-atoms_per_layer:]]
         new_height = (n_layers - 1) * d_111
@@ -55,7 +55,7 @@ def build_base_bulk(element, a, size):
     d111 = get_d111(a)
     atoms = fcc111(symbol=element, size=size, a=a, vacuum=0.0, orthogonal=False)
     atoms.pbc = [True, True, True]
-    atoms = fix_pbc_vertical_layers(atoms, d111)
+    atoms = fix_pbc_vertical_layers(atoms, d111, check_fcc_3_layers=True)
     return atoms
 
 def get_inplane_vectors(element, a):
@@ -229,35 +229,96 @@ def generate_strain(base_atoms, a1, config, dirs, logger_cb=None):
             write_structure_file(atoms, name, dirs['out'], dirs['relax'], elm, need_relax_sd=True)
 
 def generate_twin(config, dirs, logger_cb=None):
-    """6. 生成孪晶结构"""
+    """6. 生成孪晶结构 (Systematic: Single, Double Sym, Double Asym)"""
     # 适配参数
     element = config.get("element", "Cu")
     a = config.get("lattice_a", 3.615)
-    size = config.get("size", (3, 3, 12))
-    n_perturb = 0
-    amp = 0.0
+    size_xy = config.get("size", (3, 3, 12))[:2] # (3, 3)
     
-    print(f"--- Generating Twin Structure ---")
+    print(f"--- Generating Twin Structure (Systematic) ---")
     d111 = get_d111(a)
-    nx, ny, nlayers = size
-    half_size = (nx, ny, max(6, nlayers//2))
     
-    slab = fcc111(symbol=element, size=half_size, a=a, vacuum=0.0, orthogonal=False)
+    # 定义层数范围
+    spacings_layers = range(1, 9) # 1 to 8 layers
+    count = 0
     
-    twin = slab.copy()
-    pos = twin.positions 
-    z_mid = (pos[:,2].max() + pos[:,2].min()) / 2 
-    pos[:, 2] = 2*z_mid - pos[:, 2] 
-    twin.set_positions(pos) 
+    # 1. Single Twin Boundary
+    # Total layers uniformly distributed 0-2.0 nm
+    # 2.0 nm = 20 A
+    max_layers_single = int(20.0 / d111) + 1 
+    single_twin_layers = []
+    for tot in range(2, max_layers_single + 1):
+        if tot % 3 != 0: single_twin_layers.append(tot)
+        
+    print(f"  [Single Twin] Target Total Layers (0-2.0nm, non-3-multiple): {single_twin_layers}")
+
+    for tot in single_twin_layers:
+        # Split into two roughly equal parts
+        n1 = tot // 2
+        n2 = tot - n1
+        
+        seq = mc.StructureFactory.generate_fcc_stacking_sequence([n1, n2])
+        atoms = mc.StructureFactory.build_fcc_by_stacking_sequence(element, a, size_xy, seq)
+        atoms = fix_pbc_vertical_layers(atoms, d111, check_fcc_3_layers=False)
+        
+        real_h = tot * d111 / 10.0
+        name = f"Twin_Single_Total{real_h:.2f}nm_{tot}L"
+        if logger_cb: logger_cb(name, atoms, "Single Twin", {"total_height": f"{real_h:.2f}nm", "layers": tot})
+        write_structure_file(atoms, name, dirs['out'], dirs['relax'], element, need_relax_sd=True)
+        count += 1
     
-    atoms = stack(slab, twin, axis=2, distance=d111) 
-    atoms.pbc = [True, True, True] 
+    # 2. Double Twin - Symmetric (Inner == Outer)
+    # Keep as is, or adjust? User only mentioned "Double Twin Outer" changes.
+    # Assuming Symmetric case follows the "Outer" rule if applicable, but Symmetric means Inner=Outer.
+    # If Outer is 1-4, then Inner is 1-4.
+    # The previous code used `spacings_layers` (1-8).
+    # I will leave Symmetric as is (1-8) unless implied otherwise. 
+    # But "Double Twin Outer" usually refers to the Asymmetric case where Outer is fixed.
     
-    # 自动修复边界 
-    atoms = fix_pbc_vertical_layers(atoms, d111) 
+    for n in spacings_layers:
+        if n % 3 == 0: continue # Skip multiples of 3
+        
+        seq = mc.StructureFactory.generate_fcc_stacking_sequence([n, n, n])
+        atoms = mc.StructureFactory.build_fcc_by_stacking_sequence(element, a, size_xy, seq)
+        atoms = fix_pbc_vertical_layers(atoms, d111, check_fcc_3_layers=False)
+        
+        real_sp = n * d111 / 10.0 # nm
+        name = f"Twin_Double_Sym_Sp{real_sp:.2f}nm_{n}L"
+        if logger_cb: logger_cb(name, atoms, "Double Twin Symmetric", {"spacing": f"{real_sp:.2f}nm", "layers": n})
+        write_structure_file(atoms, name, dirs['out'], dirs['relax'], element, need_relax_sd=True)
+        count += 1
+        
+    # 3. Double Twin - Asymmetric (Vary Inner, Fix Outer)
+    # "Inner spacing to upper/lower diff"
+    # Outer layers: 1, 2, 3, 4
+    outer_options = [1, 2, 3, 4]
     
-    name = "twin_CTB_base" 
-    write_structure_file(atoms, name, dirs['out'], dirs['relax'], element, need_relax_sd=True)
+    for n_outer in outer_options:
+        real_sp_outer = n_outer * d111 / 10.0
+        
+        for n_inner in spacings_layers:
+            if n_inner % 3 == 0: continue # Skip multiples of 3 for inner
+            # Note: n_outer can be 3? User said "Have 1,2,3,4". So yes, outer can be 3.
+            # But "Twin layers should not be multiples of 3" might apply to total or components?
+            # Usually implies total height periodicity.
+            # But if user explicitly asks for 3 layers outer, I should allow it.
+            # The "not multiples of 3" usually refers to preventing perfect crystal restoration in PBC 
+            # or removing the "Auto-Fix" logic.
+            # I will allow n_outer=3 because user explicitly asked for it.
+            
+            if n_inner == n_outer: continue # Skip symmetric case (covered above if n_outer in spacings)
+            
+            # Structure: Matrix(Outer) - Twin(Inner) - Matrix(Outer)
+            seq = mc.StructureFactory.generate_fcc_stacking_sequence([n_outer, n_inner, n_outer])
+            atoms = mc.StructureFactory.build_fcc_by_stacking_sequence(element, a, size_xy, seq)
+            atoms = fix_pbc_vertical_layers(atoms, d111, check_fcc_3_layers=False)
+            
+            real_sp_inner = n_inner * d111 / 10.0
+            
+            name = f"Twin_Double_Asym_Inner{real_sp_inner:.2f}nm_Outer{real_sp_outer:.2f}nm_In{n_inner}L_Out{n_outer}L"
+            if logger_cb: logger_cb(name, atoms, "Double Twin Asymmetric", {"inner": f"{real_sp_inner:.2f}nm", "outer": f"{real_sp_outer:.2f}nm"})
+            write_structure_file(atoms, name, dirs['out'], dirs['relax'], element, need_relax_sd=True)
+            count += 1
 
 def generate_cut_from_existing(dirs, config, logger_cb=None):
     """
