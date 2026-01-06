@@ -68,4 +68,4 @@ gb.to(filename="GB_Sigma5.cif")
 
 ## Author
 
-Xiang-Guo Li
+Yan-miao Wu
