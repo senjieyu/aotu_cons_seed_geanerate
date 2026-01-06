@@ -1,9 +1,6 @@
 from __future__ import division, unicode_literals
 
-__author__ = 'Xiang-Guo Li'
-__copyright__ = 'Copyright 2018, The Materials Virtual Lab'
-__email__ = 'xil110@eng.ucsd.edu'
-__date__ = '05/18/18'
+
 
 """
 This is the main test script for the Grain Boundary Generator.
